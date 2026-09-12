@@ -1,44 +1,39 @@
-# Security Policy
+SECURITY POLICY (SECURITY.md)
+Supported Versions
+The ASI Master Engine is a proprietary, closed-source generative compiler engineered exclusively for the Ancient Survival Instincts production pipeline. Because this operates as a locked, sovereign simulation environment, there are no public releases, forks, or community patches supported at this time.
 
-## Supported Versions
+Version	Supported	Status
+562.x	❌	Internal Production Use Only
+< 562.x	❌	Deprecated / Archived
+Advanced Threat Mitigation & Repository Hardening
+To protect the deterministic 562-point architecture from supply chain attacks, man-in-the-middle (MITM) payload hijacking, latent space exploits, and unauthorized heuristic tampering, the Ancient Survival Instincts repository operates under absolute Zero-Trust GitHub Advanced Security protocols:
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Strict Cryptographic Commit Verification (GPG/SSH): The master branch is mathematically locked. Every commit must be cryptographically signed via verified GPG or SSH keys belonging explicitly to Christopher John Stevens. Unsigned or unverified commits trigger an immediate hardware-level rejection and repository alert.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+The Fork & Pull Request Quarantine: Automated merging and community contributions are permanently disabled. Any unauthorized pull request attempting to inject external code, alter API dependencies, or soften the 562-point physics constraints will be automatically incinerated without review.
 
-## Reporting a Vulnerability
+CodeQL Static Application Security Testing (SAST): Automated architectural code scanning is permanently active at maximum strictness. Every commit is evaluated to identify structural vulnerabilities, memory leak vectors, or logic flaws within the Python compiler before they can impact the render pipeline.
 
-Use this section to tell people how to report a vulnerability.
+Absolute Secret Scanning & Push Protection: Push protection acts as the final gateway firewall. The repository scans its entire history and actively blocks any commit attempting to push exposed API keys, Seedance 5 authentication tokens, SSH keys, or non-provider generic passwords. Credentials are mathematically prevented from reaching the repository history.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
-# Security Policy
+Dependency Review & Supply Chain Quarantine: Upstream API dependencies and third-party Python libraries are treated as actively hostile. Dependency Review serves as a strict security gate, instantly blocking the introduction of libraries with known vulnerabilities, unauthorized data-scraping telemetry, or unwanted open-source licensing.
 
-## Supported Versions
+Payload Encryption & API Tunneling: All generation payloads sent between the local Python compiler and the cloud-based latent models (e.g., Seedance 5) must be transmitted via AES-256 encrypted tunnels to prevent prompt-injection hacks or transit interception.
 
-The ASI Master Engine is a proprietary, closed-source generative compiler engineered exclusively for the Ancient Survival Instincts production pipeline. Because this is a locked production environment, there are no public releases, forks, or community patches supported at this time.
+Threat Response: The Omega Failsafe
+If the repository's telemetry detects an active brute-force attack, an unauthorized neural weight injection, or a compromised dependency, the system is authorized to execute the Omega Failsafe (Section 349/562). This will trigger an automatic, immediate revocation of all active API keys, sever the cloud rendering pipeline, and execute a localized core dump to protect the historical asset cache.
 
-| Version | Supported | Status |
-| :--- | :--- | :--- |
-| 522.x | ❌ | Internal Production Use Only |
-| < 522.x | ❌ | Deprecated / Archived |
+Reporting a Vulnerability
+If an architectural vulnerability, latent space exploit, or code flaw is identified within the 562-point deterministic framework, do not open a public GitHub issue.
 
-## Reporting a Vulnerability
+To prevent unauthorized exploitation of the generative pipeline—specifically regarding the Seedance 5 model dependencies, VRAM fragmentation leakage, or hardware-level neural overrides—all vulnerability reports, security concerns, or adversarial audit findings must be submitted privately to Christopher John Stevens.
 
-If an architectural vulnerability, latent space exploit, or code flaw is identified within the 522-point deterministic framework, **do not open a public GitHub issue.** 
+Protocol for Reporting:
 
-To prevent unauthorized exploitation of the generative pipeline, all vulnerability reports, security concerns, or adversarial audit findings must be submitted privately to Christopher John Stevens.
+Do not submit pull requests to patch vulnerabilities.
 
-**Protocol for Reporting:**
-* Do not submit pull requests to patch vulnerabilities.
-* Provide a detailed breakdown of the exploit (e.g., bypassing the Metallurgical Quarantine, forcing aesthetic drift).
-* Include the specific engine section (e.g., Section 277) where the failure occurs.
+Provide a detailed breakdown of the exploit (e.g., bypassing the Metallurgical Quarantine, forcing aesthetic drift, triggering autoencoder bottleneck compression loss).
 
-We review all private submissions to ensure the structural integrity of the Ancient Survival Instincts rendering pipeline.
+Include the specific engine section (e.g., Section 524) where the failure occurs.
+
+All private submissions are subjected to a rigorous adversarial audit to ensure the absolute structural integrity of the Ancient Survival Instincts rendering pipeline.
