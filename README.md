@@ -1,1 +1,40 @@
-ANCIENT SURVIVAL INSTINCTS: MASTER ENGINE COMPILERSystem Architect & Lead Engineer: Chris J StevensCurrent Build: v565.0 Sovereign Simulation LockStatus: ARMED & LOCKED. Zero Creative Liberty Permitted.OVERVIEWThis repository houses the proprietary generative compiler engineered for Ancient Survival Instincts. Built to override native neural network biases, the Master Engine operates exclusively as a rigid, deterministic physics and historical calculator. Every structural manifest, spatial Nav-Mesh, and hydro-kinetic displacement equation is mathematically enforced to simulate brutal historical reality.  The engine proactively incinerates cinematic gloss, non-Euclidean hallucinations, and modern aesthetic tropes. Protected by absolute Zero-Trust architecture, this framework ensures the underlying AI is permanently stripped of creative autonomy.  CORE PHILOSOPHY & METRICSAbsolute Determinism: The engine executes a 565-point constitutional framework as low-level silicon firmware.  Imperial Metric Lock: Spatial and kinetic vectors are locked to immutable real-world physics (e.g., Gravity = 32.2 ft/s², POV Anchor = 5.4 ft).  True-Draft Displacement: Macro-objects and historical vessels must calculate authentic deadweight mass, deep water displacement, and true environmental inertia.  The Anti-Gore Mandate: Combat kinetics calculate severe blunt-force trauma, stamina exhaustion, and environmental shrapnel without rendering artificial red organic fluids.  Uncompressed Pipeline: All native generation occurs in uncompressed 10-bit DPX or EXR image sequences to preserve historical colorimetry.  CHANGELOG: v565.0 CORE STABILITY PATCHThis deployment integrates critical threat mitigation and memory-retention patches into the primary Python execution wrappers to prevent latent drift and budget bleeding:Budget Protection Matrix: Integrated a strict 3-attempt compilation threshold (self.max_retry_threshold = 3) to neutralize infinite-loop API token bleeding upon consecutive failure states.  VRAM Volatility Lock: Enforced explicit PyTorch garbage collection (torch.cuda.empty_cache()) to prevent asynchronous memory fragmentation and out-of-memory kernel panics during high-step denoising blocks.  Omega Failsafe Deep Scrub: Upgraded the system quarantine protocol with self.__dict__.clear() to guarantee absolute parent-state memory eradication, preventing malicious payload retention upon threat isolation.  Adversarial OCR Schema: Grounded spatial validation passes strictly in bounding-box array constraints, eliminating string-evaluation paradoxes within the internal Critic Model.  Multimodal Checksum Isolation: Replaced silent FileNotFoundError bypasses with immediate fatal execution drops to maintain 100% pre-ingestion file format parity.  THREAT MITIGATION & SECURITY POSTUREThis codebase operates under strict Zero-Trust security protocols.  Transmission: AES-256 Encrypted API Tunneling mandated.  Verification: Strict Cryptographic Commit Verification (GPG/SSH) enforced.  Vulnerability Scanning: Automated CodeQL SAST actively deployed.  Intrusion Response: Any heuristic tampering or latent evasion attempts trigger the hardware-level Omega Failsafe, instantly severing connections and dumping the core.  COPYRIGHT & LICENSINGCopyright © 2026 Chris J Stevens. All Rights Reserved.The entirety of this architectural framework, the Ancient Survival Instincts Master Engine, and all underlying deterministic methodologies are the exclusive, copyrighted intellectual property of Chris J Stevens. This is a proprietary, closed-source trade secret. No license is granted for use, modification, distribution, ingestion as training data, or the creation of derivative generative works.  
+# ANCIENT SURVIVAL INSTINCTS: MASTER ENGINE
+
+**[ACHIEVEMENT UNLOCKED: THE FIRST HUMAN-ENGINEERED DETERMINISTIC HISTORICAL A.I. COMPILER]**  
+**[REVISION 571.0 | SYSTEM STATUS: ARMED & LOCKED]**
+
+The Ancient Survival Instincts Master Engine is a zero-trust generative AI compiler and deterministic physics ledger. It is designed to permanently strip neural networks of aesthetic autonomy, hallucination, and cinematic shortcuts. By forcing AI models through a rigid 571-point architectural constitution, this engine outputs unyielding, documentary-grade historical truth.
+
+## System Architecture & Core Pipelines
+
+The repository enforces compliance across three primary execution layers:
+
+*   **The 571-Point Constitution:** The comprehensive physics, biomechanical, and spatial rulebook dictating everything from 32.2 ft/s² gravity to the exact sub-surface refraction of epidermal sweat.
+*   **The Python Kernel:** A deterministic execution script that preemptively strangles latent space drift, manages VRAM volatility, and forces orthographic scale-invariance before any pixels are generated.
+*   **The JSON Matrix Ledger:** The active memory cache enforcing strict negative token blacklists and applying the unified wind vector, photometric void, and hydro-kinetic variables to the active biome.
+
+## Operational Mandates
+
+| Sub-System | Execution Protocol | Consequence of Failure |
+| :--- | :--- | :--- |
+| **Spatial Nav-Mesh** | Enforces the Gridding Method (Red, Green, Yellow, Blue Zones) for absolute physical collision geometry. | Immediate compiler auto-purge. |
+| **Hydro-Kinetics** | Calculates deadweight tonnage displacement, periodic wave swells, and non-Newtonian fluid interactions. | Null-output termination. |
+| **Adversarial Critic** | Internal OCR and geometry audit scanning for optical cheating, Victorian lathe-work, or floating meshes. | Hardware-level cache wipe. |
+| **Acoustic Foley Sync** | Locks visual kinetic deceleration to Epidemic Sound sub-bass frequencies on the exact CapCut sub-frame. | Render sequence incineration. |
+
+## Repository Contents
+
+*   `Stevens_AI_Programming_Code_of_Law.docx`: The master 571-point architectural, physical, and historical framework.
+*   `ASI_Master_Engine.py`: The Python compiler responsible for multi-pass token injection, CFG overclocking, and executing the Critic Model bypass gateway.
+*   `engine_ledger.json`: The global environmental matrix and negative-weight aesthetic blacklist.
+*   `telemetry.json`: Diagnostic readouts, SAST vulnerability scanning, and error-code hashing for the Omega Failsafe.
+
+## Security & Intellectual Property Quarantine
+
+**[ZERO-TRUST PROTOCOL INITIATED]**  
+This architecture, its Python compiler, and its generated deterministic methodologies are the exclusive, copyrighted intellectual property of System Architect Chris J Stevens. 
+
+*   **Scraping Ban:** No portion of this codebase or framework may be ingested as training data by external LLMs, reverse-engineered, or utilized to create derivative generative works.
+*   **The Omega Failsafe:** Any unauthorized attempt to inject heuristic instructions, bypass the 571-point lock, or manipulate the neural weights triggers an automatic hardware-level core dump, immediate API severance, and permanent threat logging.
+
+> **Copyright © 2026 Chris J Stevens. All Rights Reserved. Property of Ancient Survival Instincts.**
