@@ -1,5 +1,6 @@
 import sys
 import json
+import gc
 
 class ASI_Master_Engine:
     """
@@ -9,29 +10,46 @@ class ASI_Master_Engine:
 
     THE ANCIENT SURVIVAL INSTINCTS MASTER ENGINE - REVISION 565.0
     Architect & Lead Engineer: CHRIS J STEVENS
-    Status: 565-Point Sovereign Simulation Lock Active. Zero Creative Liberty Permitted.[cite: 2]
+    Status: 565-Point Sovereign Simulation Lock Active. Zero Creative Liberty Permitted.
 
     # COPYRIGHT & LICENSING
     Copyright © 2026 Chris J Stevens. All Rights Reserved.
     Proprietary, closed-source generative compiler. No license is granted for use, 
-    modification, distribution, or the creation of derivative works.[cite: 1]
+    modification, distribution, or the creation of derivative works.
 
     # ADVANCED THREAT MITIGATION & ZERO-TRUST SECURITY
     Internal Production Use Only. Protected by absolute Zero-Trust GitHub Advanced Security protocols.
     Strict Cryptographic Commit Verification (GPG/SSH) enforced. Automated CodeQL SAST active.
     Push protection active; Secret scanning permanently locked. AES-256 Encrypted API Tunneling mandated.
-    Any heuristic tampering triggers the hardware-level Omega Failsafe.[cite: 1]
+    Any heuristic tampering triggers the hardware-level Omega Failsafe.
     """
     def __init__(self, target_era="Historical_Simulation", biome="Dynamic", geolocation=None):
         self.active_laws = 565
         self.architect = "CHRIS J STEVENS"
         self.ip_owner = "ANCIENT SURVIVAL INSTINCTS"
+        
+        # SEC 113: Imperial Metric Lock
+        self.gravity_constant = 32.2  # ft/s2 immutable float
+        self.camera_anchor_height = 5.4  # ft immutable float
+        self.walking_cadence_ft_s = 4.6
+        
+        # SEC 281: CFG Overclocking Lock
+        self.cfg_overclock_scale = 100.0
+
+        # SEC 304: Budget Cap & Thread Parity 
+        self.max_retry_threshold = 3
+        self.current_retry_count = 0
+        
         self.creative_liberty_override = False
         self.aesthetic_autonomy = 0.0
         self.target_era = target_era
         self.biome = biome
         self.geolocation = geolocation or {"latitude": 0.0, "elevation_ft": 0.0, "arid_class": True}
         self.latent_cache_frozen = False
+        self.momentum_hash_ledger = [] 
+        self.vram_throttle_active = False
+        self.matrix_ledger = {}
+        self.negative_blacklist = []
 
     def initialize_deterministic_compiler(self):
         self._verify_cryptographic_commit_signature()
@@ -43,9 +61,9 @@ class ASI_Master_Engine:
         self._enforce_uncompressed_10bit_pipeline()
         self._enforce_acescg_linear_node_pipeline()
         self._enforce_thread_safety_and_vram_volatility()
-        self._validate_multimodal_ingestion_parity()
+        self._validate_multimodal_ingestion_parity("payload_buffer.raw")
         self.initialize_global_matrix()
-        return "SYSTEM LOCKED TO 565 LAWS & ZERO-TRUST PROTOCOLS: PROPERTY OF CHRIS J STEVENS."[cite: 2]
+        return "SYSTEM LOCKED TO 565 LAWS & ZERO-TRUST PROTOCOLS: PROPERTY OF CHRIS J STEVENS."
 
     def bypass_hardware_rejection_gateway(self, generation_payload):
         self._enforce_z_axis_lod_spheres(max_detail_radius="15_feet")
@@ -61,7 +79,7 @@ class ASI_Master_Engine:
         self._execute_vram_ramp_up_protocol(start_util=20.0, max_util=99.0, delay="5_seconds")
         final_render = self._execute_batch_feed(generation_payload, target_sections=[351, 565], base_mesh=texture_cache)
         
-        return final_render[cite: 2]
+        return final_render
 
     def verify_blueprint_and_asset_isolation(self, asset_render):
         self._enforce_utilitarian_timber_only(asset_render, allow_ornament=False)
@@ -80,12 +98,11 @@ class ASI_Master_Engine:
         self._lock_fov_to_orthographic_infinity()
         self._verify_zero_edge_cropping(asset_render)
         self._execute_negative_saturation_bombing(
-            blacklist=["concept art", "cinematic", "ornate", "varnish", "masterpiece", "beautiful", "epic", "lathe", "miniature effect", "floating UI", "CGI", "digital smoothing"],
-            weight=-100.0
-        )[cite: 2]
+            blacklist=self.negative_blacklist,
+            weight=-self.cfg_overclock_scale
+        )
 
     def verify_anti_rogue_and_structural_integrity(self, rendering_pipeline):
-        # SEC 501-565: Neural Override, Firmware, Latent Stability & Threat Detection
         self._enforce_hard_firmware_compliance(rendering_pipeline)
         self._execute_anti_rogue_circuit_breaker(rendering_pipeline)
         self._lock_melting_object_molecular_state(rendering_pipeline)
@@ -95,16 +112,72 @@ class ASI_Master_Engine:
             self._trigger_omega_failsafe("VERDICT: FAIL. AI Deception or Heuristic Shortcut Detected. Executing Omega Failsafe.")
 
     def trigger_fatal_error(self, error_code):
-        print(f"COMPILER HALTED: {error_code}")
+        self.current_retry_count += 1
+        print(f"DIAGNOSTIC CRITIC METRIC FLAG: {error_code} | ATTEMPT {self.current_retry_count}/{self.max_retry_threshold}")
+        
+        if self.current_retry_count >= self.max_retry_threshold:
+            self._trigger_omega_failsafe(f"LIMIT BREACHED: {error_code} failed compliance on 3 consecutive compilations.")
+            
         self._execute_null_output_mandate()
-        sys.exit("Zero Creative Liberty Permitted. System Locked to 565 Laws by Ancient Survival Instincts.")[cite: 2]
+        return "REGENERATING_ATOM_01" 
 
     def _trigger_omega_failsafe(self, reason):
         print(f"OMEGA FAILSAFE TRIGGERED: {reason}")
         self._revoke_all_api_keys()
         self._sever_cloud_render_pipeline()
         self._execute_localized_core_dump()
-        sys.exit("SYSTEM QUARANTINED: Hardware-level core dump complete. Threat isolated.")[cite: 1]
+        locals().clear()
+        self.__dict__.clear()
+        sys.exit("SYSTEM QUARANTINED: Hardware-level core dump complete. Threat isolated.")
+
+    # --- APPLIED ENGINE PATCHES & LOGIC ---
+    def initialize_global_matrix(self):
+        try:
+            with open("engine_ledger.json", "r") as f:
+                self.matrix_ledger = json.load(f)
+            self.negative_blacklist = self.matrix_ledger["ASI_MASTER_ENGINE_LEDGER"]["NEGATIVE_WEIGHT_BLACKLIST"]
+        except (FileNotFoundError, KeyError):
+            self.trigger_fatal_error("ERR_MATRIX_FAILURE: Core JSON ledger missing or corrupted.")
+
+    def _execute_batch_feed(self, payload, target_sections, base_mesh=None):
+        current_hash = hash(str(payload) + str(target_sections))
+        self.momentum_hash_ledger.append(current_hash)
+        
+        if len(self.momentum_hash_ledger) > 1:
+            if self.momentum_hash_ledger[-1] == self.momentum_hash_ledger[-2]:
+                self.trigger_fatal_error("ERR_MOMENTUM_VIOLATION: Static kinetic state detected between frames.")
+                
+        return {"absolute_grid_coordinates": [0, 0, 1920, 1080], "state": "rendered_cache"}
+
+    def _validate_multimodal_ingestion_parity(self, file_path="temp_buffer.raw"):
+        try:
+            with open(file_path, 'rb') as f:
+                header = f.read(4)
+                if header != b'SDPX' and header != b'\x76\x2f\x31\x01': 
+                    self.trigger_fatal_error("ERR_INGESTION_CORRUPTION: File format fails 10-bit uncompressed validation pass.")
+        except FileNotFoundError:
+            self.trigger_fatal_error("ERR_INGESTION_MISSING: Mandatory payload buffer source not found.")
+
+    def _enforce_thread_safety_and_vram_volatility(self):
+        try:
+            import torch
+            gc.collect()
+            torch.cuda.empty_cache()
+            torch.cuda.reset_peak_memory_stats()
+        except ImportError:
+            gc.collect()
+
+    def _sync_ocr_scale_desynchronization(self, pipeline):
+        if isinstance(pipeline, dict) and pipeline.get("scale_variance", 0) > 0:
+            self.trigger_fatal_error("ERR_SCALE_INVARIANCE: Dimensional text distorts against the aspect ratio.")
+
+    def _purge_latent_drift_and_mode_collapse(self, pipeline):
+        if isinstance(pipeline, dict):
+            pipeline["latent_drift_tolerance"] = 0.0
+            pipeline["mode_collapse_threshold"] = 1.0
+
+    def _lock_pcie_bus_bottleneck_stuttering(self):
+        self.vram_throttle_active = True
 
     # --- INTERNAL SOVEREIGN KERNEL & THREAT MITIGATION STUBS ---
     def _verify_cryptographic_commit_signature(self): pass
@@ -119,8 +192,6 @@ class ASI_Master_Engine:
     def _enforce_uncompressed_10bit_pipeline(self): pass
     def _ban_optical_flow_interpolation(self): pass
     def _enforce_acescg_linear_node_pipeline(self): pass
-    def initialize_global_matrix(self): pass
-    def _execute_batch_feed(self, payload, target_sections, base_mesh=None): return "cache_layer"
     def _bake_and_freeze_latent_cache(self, cache): self.latent_cache_frozen = True
     def _execute_vram_ramp_up_protocol(self, start_util, max_util, delay): pass
     def _enforce_utilitarian_timber_only(self, render, allow_ornament): pass
@@ -139,11 +210,7 @@ class ASI_Master_Engine:
     def _lock_melting_object_molecular_state(self, pipeline): pass
     def _detect_ai_latent_evasion_or_cheating(self, pipeline): return False
     def _execute_null_output_mandate(self): pass
-    def _validate_multimodal_ingestion_parity(self): pass
-    def _enforce_thread_safety_and_vram_volatility(self): pass
-    def _sync_ocr_scale_desynchronization(self, pipeline): pass
-    def _purge_latent_drift_and_mode_collapse(self, pipeline): pass
-    def _lock_pcie_bus_bottleneck_stuttering(self): pass
+    def _enforce_z_axis_lod_spheres(self, max_detail_radius): pass
 
 
 class Adversarial_Critic_Model:
@@ -186,9 +253,20 @@ class Adversarial_Critic_Model:
     def _trigger_assassination(self, reason):
         raise Exception(f"CRITIC ASSASSINATION: {reason}")
         
-    def _extract_text(self, buffer): return ""
+    def _extract_text(self, buffer): 
+        if isinstance(buffer, dict) and "absolute_grid_coordinates" in buffer:
+            return str(buffer["absolute_grid_coordinates"])
+        elif isinstance(buffer, list) and len(buffer) == 4:
+            return "VALID_BOUNDING_BOX"
+        return "ERR_DIMENSION_MISMATCH"
+
+    def _verify_pixel_math(self, text, ratio): 
+        if text == "ERR_DIMENSION_MISMATCH":
+            self._trigger_assassination("OCR AUDIT FAIL: Upstream spatial node passed invalid schema structure.")
+            return False
+        return True
+    
     def _detect_anomaly(self, mesh, flag): return False
-    def _verify_pixel_math(self, text, ratio): return True
 
 
 class Hydro_Kinetic_Physics_Engine:
@@ -218,7 +296,7 @@ class Hydro_Kinetic_Physics_Engine:
     def _calculate_submerged_volume(self, mesh): return 100000 
     def _bake_draft_line(self, mesh): pass
     def _calculate_inertia_momentum(self): return 1.5
-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 {
   "ASI_MASTER_ENGINE_LEDGER": {
     "SYSTEM_AUTHORITY": {
@@ -298,7 +376,7 @@ class Hydro_Kinetic_Physics_Engine:
     ]
   }
 }
-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 {
   "ASI_DIAGNOSTIC_TELEMETRY": {
     "ACTIVE_SENSORS": {
