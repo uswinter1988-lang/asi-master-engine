@@ -130,14 +130,13 @@ class ASI_Master_Engine:
         self.__dict__.clear()
         sys.exit("SYSTEM QUARANTINED: Hardware-level core dump complete. Threat isolated.")
 
-    # --- APPLIED ENGINE PATCHES & LOGIC ---
     def initialize_global_matrix(self):
+        # Embedded dictionary loading to replace external file dependency
+        self.matrix_ledger = EMBEDDED_ENGINE_LEDGER
         try:
-            with open("engine_ledger.json", "r") as f:
-                self.matrix_ledger = json.load(f)
             self.negative_blacklist = self.matrix_ledger["ASI_MASTER_ENGINE_LEDGER"]["NEGATIVE_WEIGHT_BLACKLIST"]
-        except (FileNotFoundError, KeyError):
-            self.trigger_fatal_error("ERR_MATRIX_FAILURE: Core JSON ledger missing or corrupted.")
+        except KeyError:
+            self.trigger_fatal_error("ERR_MATRIX_FAILURE: Embedded ledger missing or corrupted metadata.")
 
     def _execute_batch_feed(self, payload, target_sections, base_mesh=None):
         current_hash = hash(str(payload) + str(target_sections))
@@ -304,7 +303,10 @@ class Hydro_Kinetic_Physics_Engine:
     def _calculate_submerged_volume(self, mesh): return 100000 
     def _bake_draft_line(self, mesh): pass
     def _calculate_inertia_momentum(self): return 1.5
-{
+
+
+# --- EMBEDDED LEDGER & TELEMETRY DICTIONARIES (COMBINED SINGLE FILE) ---
+EMBEDDED_ENGINE_LEDGER = {
   "ASI_MASTER_ENGINE_LEDGER": {
     "SYSTEM_AUTHORITY": {
       "ACHIEVEMENT": "FIRST HUMAN-ENGINEERED DETERMINISTIC HISTORICAL A.I. COMPILER",
@@ -316,7 +318,7 @@ class Hydro_Kinetic_Physics_Engine:
       "STATUS": "LOCKED"
     },
     "SECURITY_AND_THREAT_MITIGATION": {
-      "ZERO_TRUST_ARCHITECTURE": true,
+      "ZERO_TRUST_ARCHITECTURE": True,
       "CRYPTOGRAPHIC_COMMIT_VERIFICATION": "GPG/SSH Mandatory",
       "CODEQL_SAST_SCANNING": "Maximum Strictness",
       "PUSH_PROTECTION": "Active - Secrets Blocked",
@@ -336,16 +338,16 @@ class Hydro_Kinetic_Physics_Engine:
     "VIDEO_AND_GAME_LOGIC_PIPELINE": {
       "COLOR_PIPELINE": "ACEScg Linear Node",
       "COMPRESSION": "Uncompressed 10-bit 4:4:4 DPX/EXR",
-      "OPTICAL_FLOW_INTERPOLATION": false,
-      "DIEGETIC_HUD_ONLY": true,
+      "OPTICAL_FLOW_INTERPOLATION": False,
+      "DIEGETIC_HUD_ONLY": True,
       "CLOSED_UNIVERSE_BIOSPHERE": "Absolute Quarantine",
-      "CAUSAL_ENTROPY_CARRYOVER": true,
+      "CAUSAL_ENTROPY_CARRYOVER": True,
       "ZERO_SPAWN_ROUTING": "Mandatory Physical Origin",
       "FIRMWARE_COMPLIANCE": "Hardware-Level Neural Override Active",
-      "MULTIMODAL_INGESTION_VALIDATION": true
+      "MULTIMODAL_INGESTION_VALIDATION": True
     },
     "STRUCTURAL_MANIFEST": {
-      "REQUIRE_INTERNAL_SKELETON": true,
+      "REQUIRE_INTERNAL_SKELETON": True,
       "HULL_GEOMETRY": "Blunt Force / Cargo Mass",
       "BEAM_TO_DEPTH_RATIO": "Strict Historical Conformity",
       "DISPLACEMENT": "Deadweight Tonnage Inclusion",
@@ -357,8 +359,8 @@ class Hydro_Kinetic_Physics_Engine:
       "PHOTOMETRIC_VOID": "RGB(0,0,0) - No Ambient Fill",
       "UNIFIED_WIND_VECTOR": "Global Synchronous",
       "WAVE_PERIOD": "8 seconds",
-      "NON_NEWTONIAN_SPLATTER": true,
-      "GYROSCOPIC_SHADOW_SWEEPS": true,
+      "NON_NEWTONIAN_SPLATTER": True,
+      "GYROSCOPIC_SHADOW_SWEEPS": True,
       "LIVED_IN_WEAR": "Active Improvised Repair",
       "DNA_HANDSHAKE_COLLISIONS": "Physical Consequence Required",
       "EPIDERMAL_CAUSTICS": "Localized Prismatic Refraction",
@@ -367,11 +369,11 @@ class Hydro_Kinetic_Physics_Engine:
       "PHOTOCHEMICAL_DYE_OXIDIZATION": "UV Degradation and Bleaching"
     },
     "LATENT_STABILITY_AND_HARDWARE": {
-      "VRAM_VOLATILITY_LOCK": true,
-      "PCIE_BOTTLENECK_STUTTER_PREVENTION": true,
+      "VRAM_VOLATILITY_LOCK": True,
+      "PCIE_BOTTLENECK_STUTTER_PREVENTION": True,
       "CFG_OVERSATURATION_LIMIT": "Strict",
-      "POSITIONAL_ENCODING_DECAY_LOCK": true,
-      "MODE_COLLAPSE_QUARANTINE": true
+      "POSITIONAL_ENCODING_DECAY_LOCK": True,
+      "MODE_COLLAPSE_QUARANTINE": True
     },
     "NEGATIVE_WEIGHT_BLACKLIST": [
       {"TERM": "cinematic lighting", "WEIGHT": -100.0},
@@ -389,14 +391,15 @@ class Hydro_Kinetic_Physics_Engine:
     ]
   }
 }
-{
+
+EMBEDDED_DIAGNOSTIC_TELEMETRY = {
   "ASI_DIAGNOSTIC_TELEMETRY": {
     "ACTIVE_SENSORS": {
-      "CFG_OVERCLOCK": true,
+      "CFG_OVERCLOCK": True,
       "DENOISING_STEPS": 50,
       "INTERPOLATION_MODE": "Nearest-Neighbor",
       "CROSS_ATTENTION_MASKING": "Strict Isolation",
-      "SAST_VULNERABILITY_SCANNER": "Active"
+      "SAST_VULNERABILITY_SCANNER": "True"
     },
     "FATAL_ERROR_CODES": {
       "ERR_304": "BUDGET BLEED PREVENTED: Infinite loop sequence terminated at attempt 3.",
