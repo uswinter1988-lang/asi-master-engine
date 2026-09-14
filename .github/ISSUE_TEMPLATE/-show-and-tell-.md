@@ -1,9 +1,12 @@
 ---
-name: Custom issue template
+name: '"Show and Tell"'
 about: I built a 571-Point Deterministic Physics Compiler to Kill AI Hallucination
-title: ''
-labels: ''
-assignees: ''
+title: "[Placeholder: Attach visual proof]  5. Environmental Telemetry  Active Biome:
+  [Placeholder]  Chrono-Meteorological State: [Placeholder: e.g., Category 5 Storm,
+  Night-Void]  Hardware/GPU Specs: [Placeholder]"
+labels: bug
+assignees: uswinter1988-lang
+type: Feature
 
 ---
 
