@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: "\U0001F41B Critical Physics/Hallucination Report"
 title: 'Active Biome: [Placeholder]  Chrono-Meteorological State: [Placeholder: e.g.,
   Category 5 Storm, Night-Void]  Hardware/GPU Specs: [Placeholder]'
 labels: ''
