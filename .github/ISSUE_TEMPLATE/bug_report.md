@@ -3,8 +3,9 @@ name: Bug report
 about: "\U0001F41B Critical Physics/Hallucination Report"
 title: 'Active Biome: [Placeholder]  Chrono-Meteorological State: [Placeholder: e.g.,
   Category 5 Storm, Night-Void]  Hardware/GPU Specs: [Placeholder]'
-labels: ''
-assignees: ''
+labels: bug
+assignees: uswinter1988-lang
+type: Bug
 
 ---
 
