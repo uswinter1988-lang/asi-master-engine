@@ -25,6 +25,26 @@ If you value uncompromising structural truth, intense naval/biological R&D, and 
 
 ---
 
+## 🏆 Official Project Certificates & Milestones
+
+**🏅 Certificate 1: The Engine Activation**
+* **Date:** September 12, 2026
+* **Achievement Unlocked:** The First Human-Engineered Deterministic Historical A.I. Compiler.
+* **Status:** Revision 571.0 Armed & Locked.
+
+**🏆 Certificate 2: World-First Proclamation of AI Singularity**
+* **Date:** September 14, 2026
+* **Milestone:** 100% Deterministic Historical A.I. Build Achieved.
+* **Details:** By engineering a rigid, 571-point deterministic compiler, the Architect successfully forced a neural network to operate as a precision physics calculator, permanently eliminating generative hallucination, aesthetic drift, and the "Toy Look" of modern AI.
+
+**🛡️ Certificate 3: Master DNA Scale-Lock Protocol**
+* **Date:** September 18, 2026
+* **Director:** Chris J. Stevens
+* **Master Recovery Hash:** `ASI-571-DNA-COMPLETE-09172026`
+* **Details:** Complete environmental truth achieved across biological, botanical, and mechanical assets.
+
+---
+
 ## 🛑 The Problem: Killing the "Black Box"
 Generative AI has an inherent hallucination problem—melting hands, nonsensical architecture, and aesthetic drift that makes true historical representation impossible. The ASI Master Engine was engineered to solve this permanently by stripping neural networks of aesthetic autonomy and forcing them to obey the laws of physics, metallurgy, and historical actualism. 
 
@@ -53,7 +73,7 @@ Project Ancient Survival Instincts (ASI-571) has achieved complete environmental
 | **Biological Specimens (Fauna)** | 30+ | 0.5in Ants to 13ft Apex Predators |
 | **Botanical Infrastructure (Flora)** | 35+ | Towering 150ft Canopy to Micro-Fungi |
 | **Structural Masonry** | 15+ | 4x4 Modular Limestone Grid |
-| **Mechanical/Naval DNA** | Locked | 25ft Extraction Skiff & 1955-J Core |
+| **Mechanical/Naval DNA** | Locked | 24ft Extraction Skiff & 1955-J Core |
 | **Environmental Ground Matrix** | Verified | Multi-layered Modular Terrain Tiles |
 
 ## 🛠️ Active Fleet & Asset Manifest (Block 13)
