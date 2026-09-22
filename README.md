@@ -5,10 +5,8 @@
 **System Status:** ARMED & LOCKED — [100% DETERMINISTIC TRUTH PROTOCOL ACTIVE][cite: 8]
 
 > *"HOLLYWOOD SHOWS YOU THE FANTASY; WE SHOW YOU THE TRUTH."*[cite: 8]
+> 
 > *"I didn’t just prompt an AI today. I compiled a universe."*
-
-System Architect & Lead Engineer: Christopher John StevensCurrent Release: Revision 573.7 (Narrative Singularity Lock)  
-System Status: ARMED & LOCKED
 
 "I didn’t just prompt an AI today. I compiled a universe."Chris J. Stevens is the System Architect and Director behind Ancient Survival Instincts. By merging real-world physics, game engine logic, and historical research, Chris developed the ASI-571 Master Engine—a deterministic rendering pipeline designed to produce scale-locked, studio-grade historical documentaries. His work bypasses standard probabilistic AI, setting a new benchmark for uncompromising structural truth in independent media.
 
