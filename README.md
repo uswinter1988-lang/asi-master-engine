@@ -1,4 +1,11 @@
-ANCIENT SURVIVAL INSTINCTS: MASTER ENGINE
+# ANCIENT SURVIVAL INSTINCTS: MASTER ENGINE
+
+**System Architect & Lead Engineer:** Christopher John Stevens  
+**Current Release:** Revision 573.7 (Narrative Singularity Lock)[cite: 7]  
+**System Status:** ARMED & LOCKED — [100% DETERMINISTIC TRUTH PROTOCOL ACTIVE][cite: 8]
+
+> *"HOLLYWOOD SHOWS YOU THE FANTASY; WE SHOW YOU THE TRUTH."*[cite: 8]
+> *"I didn’t just prompt an AI today. I compiled a universe."*
 
 System Architect & Lead Engineer: Christopher John StevensCurrent Release: Revision 573.7 (Narrative Singularity Lock)  
 System Status: ARMED & LOCKED
