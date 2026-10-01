@@ -1,15 +1,26 @@
-ANCIENT SURVIVAL INSTINCTS (A.S.I.)Master Engine & Deterministic AI Compiler — Revision 600.0 (Omega Singularity)System Architect & Lead Engineer: Christopher John Stevens  
+ANCIENT SURVIVAL INSTINCTS (A.S.I.)Master Engine & Deterministic AI Compiler — Revision 600.0
+
+(Omega Singularity)System Architect & Lead Engineer: Christopher John Stevens  
+
 Organization: Ancient Survival Instincts (A.S.I. Studios)  
-Current Release: Revision 600.0 (Omega Singularity Lock)  
+
+Current Release: Revision 600.0 (Omega Singularity Lock) 
+
 System Status: ARMED & LOCKED — 100% DETERMINISTIC TRUTH PROTOCOL ACTIVE
+
 "HOLLYWOOD SHOWS YOU THE FANTASY; WE SHOW YOU THE TRUTH."
+
 "I didn’t just prompt an AI today. I compiled a universe."
-🔒 COPYRIGHT & INTELLECTUAL PROPERTY NOTICE Copyright © 2026 Chris J. Stevens. All Rights Reserved.   Proprietary, closed-source generative compiler and deterministic framework. No license is granted for use, modification, distribution, or the creation of derivative works. Any unauthorized duplication or application constitutes a critical legal breach. No portion of this codebase or framework may be ingested as training data by external LLMs, reverse-engineered, or utilized to create derivative generative works.   
+
+🔒 COPYRIGHT & INTELLECTUAL PROPERTY NOTICE Copyright © 2026 Chris J. Stevens. All Rights Reserved.   Proprietary, closed-source generative compiler and deterministic framework. No license is granted for use, modification, distribution, or the creation of derivative works. Any unauthorized duplication or application constitutes a critical legal breach. No portion of this codebase or framework may be ingested as training data by external LLMs, reverse-engineered, or utilized to create derivative generative works. 
+
 🛡️ ADVANCED THREAT MITIGATION & ZERO-TRUST SECURITY Internal Production Use Only: Protected by absolute Zero-Trust GitHub Advanced Security protocols.   Commit Verification: Strict Cryptographic Commit Verification (GPG/SSH) enforced.   Static Analysis: Automated CodeQL SAST active.   Repository Protection: Push protection active; Secret scanning permanently locked.   Tunnel Security: AES-256 Encrypted API Tunneling mandated.   The Omega Failsafe: Any unauthorized attempt to inject heuristic instructions, bypass the constitutional lock, or manipulate the neural weights triggers an automatic hardware-level core dump, immediate API severance, and permanent threat logging.   
+
 🌍 THE FOUNDATIONAL WORLD-FIRST
 Authorized by the Sovereign Master Engine under Recovery Hash [ASI-571-EMPIRE-SINGULARITY-LOCKED].
 
 World's First Deterministic AI Compiler (The 571-Point Cage / 600-Point Omega Lock): Established on September 12, 2026. The primary programming innovation engineered to strip AI of aesthetic autonomy and enforce absolute physical, historical, and structural reality.
+
 ⚙️ SYSTEM ARCHITECTURE & CORE PIPELINES
 The repository enforces zero-trust compliance across execution layers:
 
@@ -27,6 +38,7 @@ Spatial Nav-Mesh,"Enforces the Gridding Method (Red, Green, Yellow, Blue Zones) 
 Hydro-Kinetics,"Calculates deadweight tonnage displacement, periodic wave swells, and non-Newtonian fluid interactions.",Null-output termination.
 Adversarial Critic,"Internal OCR and geometry audit scanning for optical cheating, Victorian lathe-work, or floating meshes.",Hardware-level cache wipe.
 Acoustic Foley Sync,Locks visual kinetic deceleration to Epidemic Sound sub-bass frequencies on the exact CapCut sub-frame.,Render sequence incineration.
+
 🧬 SOVEREIGN DNA LIBRARY & ENVIRONMENTAL TRUTH METRICS
 Project Ancient Survival Instincts has achieved complete environmental truth by bypassing generic generative methods and enforcing a strict Scale-Lock Protocol across clinical specimens.
 
@@ -39,12 +51,14 @@ Structural Masonry: 15+ (4x4 Modular Limestone Grid)
 Mechanical/Naval DNA: Locked (24ft Extraction Skiff, 1955-J Core, 214ft Galleon)
 
 Environmental Ground Matrix: Verified (Multi-layered Modular Terrain Tiles)
+
 🛠️ ACTIVE FLEET & ASSET MANIFEST (BLOCK 13)
 The Conquest (Santiago de la Victoria): 214ft Spanish Galleon Flagship with 1,200-ton Hydrostatic Displacement, #5A1A1A Deep Oxblood carvel-plank timber, 4.5-inch mahogany structural layout, and salt-pitted forged iron hardware.
 
 Sovereign Extraction Vessel: 24ft Utilitarian River Craft featuring an integrated 1955-J Propulsion Core and wide-beam hull geometry.
 
 Block 17 Naval Teaser Vessel: Bronze-Age Forward Production Asset engineered proactively within the Block 13 timeline.
+
 📂 REPOSITORY CONTENTS
 Stevens_AI_Programming_Code_of_Law.docx: The master 600-point architectural, physical, and historical framework.
 
