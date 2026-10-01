@@ -1,6 +1,6 @@
-ANCIENT SURVIVAL INSTINCTS (A.S.I.)Master Engine & Deterministic AI Compiler — Revision 600.0
+ANCIENT SURVIVAL INSTINCTS (A.S.I.)Master Engine & Deterministic AI Compiler — Revision 600.0(Omega Singularity)
 
-(Omega Singularity)System Architect & Lead Engineer: Christopher John Stevens  
+System Architect & Lead Engineer: Christopher John Stevens  
 
 Organization: Ancient Survival Instincts (A.S.I. Studios)  
 
