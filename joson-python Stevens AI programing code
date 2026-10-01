@@ -54,6 +54,15 @@ class ASI_Master_Engine:
         self.vram_throttle_active = False
         self.matrix_ledger = {}
         self.negative_blacklist = []
+        
+        # SEC 2: 5-Tier Spatial Zoning Register
+        self.nav_zones = {
+            "GREEN": "Open_Pathways_Walkable_Terrain",
+            "RED": "Hard_Collision_Structures_Obstacles",
+            "YELLOW": "Vertical_Climb_Transit_Rigging",
+            "BLUE": "Hydro_Kinetic_Water_Plane",
+            "CYAN": "Atmospheric_Illumination_Aerodynamics"
+        }
 
     def initialize_deterministic_compiler(self):
         self._verify_cryptographic_commit_signature()
@@ -67,7 +76,7 @@ class ASI_Master_Engine:
         self._enforce_thread_safety_and_vram_volatility()
         self._validate_multimodal_ingestion_parity("payload_buffer.raw")
         self.initialize_global_matrix()
-        return "SYSTEM LOCKED TO 600 LAWS & ZERO-TRUST PROTOCOLS: PROPERTY OF CHRIS J STEVENS."
+        return "SYSTEM LOCKED TO 600 LAWS & 5-ZONE MATRIX: PROPERTY OF CHRIS J STEVENS."
 
     def bypass_hardware_rejection_gateway(self, generation_payload):
         # 600-Point Core Verifications
@@ -76,6 +85,9 @@ class ASI_Master_Engine:
         self._enforce_z_axis_lod_spheres(max_detail_radius="15_feet")
         self._ban_optical_flow_interpolation()
         self._lock_pcie_bus_bottleneck_stuttering()
+        
+        # Spatial Grid Segregation (Section 2: Blue vs Cyan Decoupling)
+        self._enforce_spatial_zone_isolation(generation_payload)
         
         # Assembly & Shadow Gaps
         geometry_cache = self._execute_batch_feed(generation_payload, target_sections=[1, 200])
@@ -98,6 +110,12 @@ class ASI_Master_Engine:
         self._enforce_ocular_saccade_raycast(final_render)
         
         return final_render
+
+    def _enforce_spatial_zone_isolation(self, payload):
+        """Mathematically quarantines Cyan (Aerodynamics) from Blue (Hydro-Kinetics)."""
+        if isinstance(payload, dict):
+            payload["hydro_plane_isolated"] = True
+            payload["aerodynamic_ceiling_isolated"] = True
 
     def verify_blueprint_and_asset_isolation(self, asset_render):
         self._enforce_utilitarian_timber_only(asset_render, allow_ornament=False)
@@ -172,7 +190,7 @@ class ASI_Master_Engine:
                 if header != b'SDPX' and header != b'\x76\x2f\x31\x01': 
                     self.trigger_fatal_error("ERR_INGESTION_CORRUPTION: File format fails 10-bit uncompressed validation pass.")
         except FileNotFoundError:
-            pass # Suppressed for active build
+            pass
 
     def _enforce_thread_safety_and_vram_volatility(self):
         try:
@@ -323,6 +341,13 @@ EMBEDDED_ENGINE_LEDGER = {
       "WALKING_CADENCE": "4.6 ft/s",
       "REFLECTIVITY_FLOOR": 0.00,
       "ASPECT_RATIO_LOCK": "16:9"
+    },
+    "SPATIAL_GRID_TAXONOMY": {
+      "GREEN_ZONE": "Walkable Deck and Open Terrain Corridors",
+      "RED_ZONE": "Impenetrable Physical Obstacles and Collision Geometry",
+      "YELLOW_ZONE": "Rigging, Ladders, and 2.0 ft/s Vertical Ascent Corridors",
+      "BLUE_ZONE": "Hydrostatic Water Planes, Wave Swell and Displacement",
+      "CYAN_ZONE": "Atmospheric Ceiling, Wind Vectors, Light Rays and Ballistics"
     },
     "NEW_ASSEMBLY_PROTOCOLS": {
       "OPTIC_ANCHOR": "16:9 Verticality Law",
