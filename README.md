@@ -59,6 +59,18 @@ Sovereign Extraction Vessel: 24ft Utilitarian River Craft featuring an integrate
 
 Block 17 Naval Teaser Vessel: Bronze-Age Forward Production Asset engineered proactively within the Block 13 timeline.
 
+🏛️ Back the A.S.I. Master Engine
+Ancient Survival Instincts is entirely independent. We are pushing the boundaries of what single-creator, physics-grounded generative media can achieve. By replacing standard probabilistic AI with a rigorous 600-Point Sovereign Simulation Lock, we are engineering studio-grade historical ecosystems from the ground up.
+
+If you value uncompromising structural truth, intense naval/biological R&D, and the future of independent documentary filmmaking, you can directly fuel the engine's continued deployment.
+
+Funding Directives:
+Core Compute (R&D): Fuels the continuous trial-and-error required to break the engine and lock in complex physical laws.
+
+The Master DNA Library: Funds the expansion of scale-locked assets, from micro-biology to 16th-century naval architecture.
+
+Uncompromising Production: Ensures the upcoming documentary series remains free from studio interference and strictly bound to environmental truth.
+
 📂 REPOSITORY CONTENTS
 Stevens_AI_Programming_Code_of_Law.docx: The master 600-point architectural, physical, and historical framework.
 
