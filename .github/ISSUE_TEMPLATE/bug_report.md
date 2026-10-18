@@ -10,11 +10,10 @@ type: Bug
 ---
 
 name: 🐛 Critical Physics/Hallucination Report
-about: Log a generative violation of the 571-Point Code of Law.
+about: Log a generative violation of the 700-Law Omega Kernel.
 title: '[CRITIC FAIL]: '
 labels: ['fatal-error', 'hallucination']
 assignees: ''
-
 [OFFICIAL INCIDENT REPORT: SYSTEMIC INTEGRITY BREACH]
 
 1. The Anomaly (What Hallucinated?)
@@ -23,7 +22,7 @@ Identify the exact visual, structural, or physical failure (e.g., melting wood g
 [Placeholder: Describe the generative failure]
 
 2. The Breached Constitutional Law
-Which specific section of the 571-Point Code of Law did the latent space fail to enforce?
+Which specific section of the 700-Law Omega Kernel did the latent space fail to enforce?
 
 [Placeholder: e.g., SECTION 105: METALLURGICAL IMPURITY]
 
